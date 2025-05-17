@@ -1,0 +1,80 @@
+<html lang = en>
+    <head>
+        <title>The Green Agenda</title>
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./sign-styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        
+    </head>
+        
+    <body>
+        <div class = "hr1"></div>
+        <nav>
+            <ul class = navbar>
+                <li class = navcontent><a href = "../homepage/home-main.html">Home</a></li>
+                <li class = navcontent><a href = "../information/information-main.html">Overview</a></li>
+                <li class = navcontent><a href = "../contact/contact-main.html">Contacts</a></li>
+                <li class = navcontent><a href = "../references/references-main.html">References and Useful Links</a></li>
+                <li class = navcontent><a href = "../quiz/quiz-main.html">Quiz</a></li>
+                <li class = navcontent><a href = "../sign/sign-main.html">Join Us</a></li>
+            </ul>
+        </nav>
+        
+
+         
+        <header>
+            <img src = "images/logo.svg" class = "logo">
+            
+            <h1 class = "titleheader">The Green Agenda calls for you</h1>
+            <h2 class = "descriptionheader">The Green Agenda is a worldwide mission to fight climate change.
+            Be part of the movement. Be part of the future.
+            </h2>
+            
+            <h2 class = "titlesubheader">Enlist Now</h2>
+            
+        </header>
+        
+        <div class = "formcontainer">
+            <form onsubmit="return signup();">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required>
+                
+                <br>
+
+                <br><label class = "sex">Sex:</label><br>
+                <input type="radio" id="male" name="sex" value = "male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="sex" value = "female" required>
+                <label for="female">Female</label><br>
+                <input type="radio" id="pnts" name="sex" value = "pnts" required>
+                <label for="pnts">Prefer not to say</label><br>
+
+                <br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" required><br>
+                <label for="pass">Password:</label><br>
+                <input type="password" id="pass" name="pass" required><br>
+                <label for="contact">Contact Number:</label><br>
+                <input type="text" id="contact" name="contact"><br>
+
+                <br>
+                
+                <label for="reason">Reason for Joining:</label><br>
+                <textarea id="reason" name="reason" rows="5" cols="26" required></textarea>
+
+                <br>
+
+                <br><input type="submit" value="Help Save The World">
+            </form>
+        </div>
+        
+         
+        <hr class = "hr2">
+                
+        <footer> @2024 The Green Agenda </footer>
+        <script src="sign-javascript.js"></script>
+    </body>
+</html>
